@@ -1,0 +1,65 @@
+body {
+    font: 1rem/1.5 -apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica,helvetica neue,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+  }
+  
+  .picture {
+    width: 135px;
+    border-radius: 50%;
+  }
+  
+  .icon {
+    font-size: 2.5em;
+  }
+  
+  .icon a {
+    text-decoration: none;
+  }
+  
+  .fa-twitter-square {
+    color: #1A8CD8;
+  }
+  
+  .fa-github-square {
+    color: black;
+  }
+  
+  .fa-linkedin-square {
+    color: #0A66C2
+  }
+  
+  /* Media queries */
+  
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {
+    body {
+      padding: 50px;
+    }
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    body {
+      padding: 50px;
+    }
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    body {
+      padding: 80px;
+    }
+  }
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    body {
+      padding: 150px;
+    }
+  }
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    body {
+      padding: 150px;
+    }
+  }
