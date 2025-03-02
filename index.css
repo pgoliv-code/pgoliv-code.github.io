@@ -4,7 +4,7 @@ body {
   
   .picture {
     width: 135px;
-    border-radius: 50%;
+    border-radius: 15%;
   }
   
   .icon {
@@ -26,7 +26,38 @@ body {
   .fa-linkedin-square {
     color: #0A66C2
   }
+
+  .languages-logos {
+    height: auto;
+    width: 3.5rem;
+  }
+
+  .javascript {
+    height: auto;
+    width: 3rem;
+  }
+
+  .react {
+    height: auto;
+    width: 5.5rem;
+  }
+
+  .java {
+    height: auto;
+    width: 6rem;
+  }
+
+  /* .fa {
+    display: inline-block;
+    font: normal normal normal 14px / 1 FontAwesome;
+    font-size: xx-large;
+    text-rendering: auto;
+  } */
   
+  /* .links-social-media {
+    height: 20rem;
+  } */
+
   /* Media queries */
   
   /* Extra small devices (phones, 600px and down) */
