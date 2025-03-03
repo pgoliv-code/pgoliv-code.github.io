@@ -1,30 +1,25 @@
 body {
     font: 1rem/1.5 -apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica,helvetica neue,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+    overflow: hidden;
   }
   
   .picture {
     width: 135px;
     border-radius: 15%;
   }
-  
-  .icon {
-    font-size: 2.5em;
+
+  .links-social-media {
+    padding: 0.6rem;
   }
-  
-  .icon a {
-    text-decoration: none;
+
+  .linkedin-logo {
+    height: auto;
+    width: 1.8rem;
   }
-  
-  .fa-twitter-square {
-    color: #1A8CD8;
-  }
-  
-  .fa-github-square {
-    color: black;
-  }
-  
-  .fa-linkedin-square {
-    color: #0A66C2
+
+  .github-logo {
+    height: auto;
+    width: 1.8rem;
   }
 
   .languages-logos {
@@ -47,50 +42,43 @@ body {
     width: 6rem;
   }
 
-  /* .fa {
-    display: inline-block;
-    font: normal normal normal 14px / 1 FontAwesome;
-    font-size: xx-large;
-    text-rendering: auto;
-  } */
-  
-  /* .links-social-media {
-    height: 20rem;
-  } */
+  a:link {
+    text-decoration: none;
+  }
 
   /* Media queries */
   
   /* Extra small devices (phones, 600px and down) */
   @media only screen and (max-width: 600px) {
     body {
-      padding: 50px;
+      padding: 3rem;
     }
   }
   
   /* Small devices (portrait tablets and large phones, 600px and up) */
   @media only screen and (min-width: 600px) {
     body {
-      padding: 50px;
+      padding: 4rem;
     }
   }
   
   /* Medium devices (landscape tablets, 768px and up) */
   @media only screen and (min-width: 768px) {
     body {
-      padding: 80px;
+      padding: 4rem;
     }
   }
   
   /* Large devices (laptops/desktops, 992px and up) */
   @media only screen and (min-width: 992px) {
     body {
-      padding: 150px;
+      padding: 6rem;
     }
   }
   
   /* Extra large devices (large laptops and desktops, 1200px and up) */
   @media only screen and (min-width: 1200px) {
     body {
-      padding: 150px;
+      padding: 9rem;
     }
   }
